@@ -34,10 +34,10 @@ int main()
 
                 cout << "Pilihan (1/2/3) = ";
                 cin >> piliham;
-            swith(pilihan)
+                switch (pilihan)
 
                 case 1:
-                cout << "Hitung luas persegi panjang" << endl;
+                    cout << "Hitung luas persegi panjang" << endl;
                 cout << "Masukkan panjang = ";
                 cin >> panjang;
                 cout " Masukkan lebar = " cin lebar;
@@ -49,8 +49,13 @@ int main()
                 cout << "Luas lingkaran =" << Luaslingkaran(jejari) << endl;
                 break;
             case 3:
+                break;
+                default;
+                cout << "Pilihan salah, pilihan harus diantara 1-3.";
+                break;
             }
         }
+        while (pilihan != 3)
+            ;
     }
-}
 }
