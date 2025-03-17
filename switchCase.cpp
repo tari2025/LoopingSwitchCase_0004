@@ -34,12 +34,23 @@ int main()
 
                 cout << "Pilihan (1/2/3) = ";
                 cin >> piliham;
-            swith (pilihan)
+            swith(pilihan)
 
-            case 1
+                case 1:
+                cout << "Hitung luas persegi panjang" << endl;
+                cout << "Masukkan panjang = ";
+                cin >> panjang;
+                cout " Masukkan lebar = " cin lebar;
+                cout << "Luas persegi panjang = " << luasPersegIPanjang(panjang.lebar) break;
+            case 2:
+                cout << "Hitung luas linkaran" << endl;
+                cout << "Masukkan jari-jari =";
+                cin >> jejari;
+                cout << "Luas lingkaran =" << Luaslingkaran(jejari) << endl;
+                break;
+            case 3:
+            }
         }
-}
-
     }
 }
 }
